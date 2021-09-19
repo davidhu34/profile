@@ -17,13 +17,13 @@ class ContactModal extends Component {
     },{
         key: ' cell',
         icon: 'call',
-        content: '+886937507612',
-        copy: '+886937507612',
+        content: '+1(201)706-0644',
+        copy: '+12017060644',
         link: ''
     },{
         key: 'location',
         icon: "map marker alternate",
-        content: 'Taipei, Taiwan',
+        content: 'Hoboken, NJ',
         link: ''
     },{
         key: 'github',

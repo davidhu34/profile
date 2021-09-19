@@ -243,7 +243,7 @@ class Mobile extends Component {
                         <Divider hidden />
                         <Divider hidden />
 
-                        <p>{'Front-end development consists the majority of my work.'}</p>
+                        <p>{'Front-end engineering consists the majority of my work.'}</p>
                         <p>{'IoT and cloud Applications are my fields of interests.'}</p>
                         <p>{'I\'m enthusiastic about programming and user experience.'}</p>
 
@@ -268,8 +268,8 @@ class Mobile extends Component {
                                 <br />
                                 <Icon name={'rocket'} />
                                 NASA Space App Challenge <br/>- Magic Conch
-                            </TimelineEvent>
-                            <TimelineEvent title="2018" {...this.timelineEventProps()}>
+                                <br />
+                                <br />
                                 <Image spaced inline src={'images/ibm.png'}
                                     width={30}
                                     height={30}/>
@@ -282,13 +282,22 @@ class Mobile extends Component {
                                     height={30}/>
                                 Shopee Employee
                             </TimelineEvent>
+                            <TimelineEvent title="2020" {...this.timelineEventProps()}>
+                                <Icon name={'university'} /> Joined MS in CS at Stevens Institute of Technology
+                            </TimelineEvent>
+                            <TimelineEvent title="2021" {...this.timelineEventProps()}>
+                                <Image spaced inline src={'images/hpe.png'}
+                                    width={30}
+                                    height={30}/>
+                                Internship at HPE
+                            </TimelineEvent>
                         </Timeline>
 
                     </Container>
                     <Container style={{ ...contentPadding }}>
-                        <p>{'My experience through 2 cloud team internships...'}</p>
+                        <p>My experience through 2 cloud team internships <br /> at Microsoft and IBM...</p>
 
-                        <p>{'Cloud Service POCs | IoT POCs | Event Lecturer | Official Blog Editor'}</p>
+                        <p>Cloud Service POCs | IoT POCs<br />| Event Lecturer | Official Blog Editor</p>
 
                         <Divider hidden />
                         <Image spaced inline width={clipTop} src={'images/ms.png'} />
@@ -297,13 +306,13 @@ class Mobile extends Component {
                     </Container>
 
                     <Container style={{ ...contentPadding }}>
-                        <p>{'My IBM mentor and I build chat bots of all shape and sizes. (APPs, cardboards, humanoids, VR...) '}</p>
+                        <p>My IBM mentor and I build chat bots of all shape and sizes<br />APPs, cardboards, humanoids, VR...</p>
 
                         <Divider hidden />
                         <Image spaced inline src={'images/reception.png'} />
                         <Divider hidden />
 
-                        <p>{'One of our bot even hosted the office reception for a couple of month!'}</p>
+                        <p>One of our 3D chat bot even hosted the Taipei office reception for a couple of month!</p>
                     </Container>
 
                     <Container style={{ ...contentPadding }}>
@@ -345,6 +354,33 @@ class Mobile extends Component {
                         <Divider hidden />
                         <p>{'Our projects ranged from drop shippings systems'}</p>
                         <p>{'to demanding food delivery platform.'}</p>
+                    </Container>
+
+                    <Container style={{ ...contentPadding }}>
+                        <p>
+                            I'm currenty pursuing MS in Computer Science
+                            <br/>
+                            at Stevens Institute of Technology in Hoboken, NJ
+                            <br />
+                            I'm expected to graduate by the end of 2021
+                        </p>
+                        <Divider hidden />
+                        <Image spaced inline size="small" src={'images/hpe.png'} />
+                        <Divider hidden />
+                        <p>
+                            During my internship at Hewlett Packard Enterprise
+                            <br />
+                            in summer, I implemented the dark theme infrastructure
+                            <br />
+                            for our UI team's design system library.
+                        </p>
+                        <p>
+                            I've continued to work as a
+                            <br />
+                            part-time Web UI software engineer,
+                            <br />
+                            building UI components and features for cloud-based storage applicaitons.
+                        </p>
                     </Container>
 
                     <Container style={{

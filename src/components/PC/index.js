@@ -92,9 +92,9 @@ class PC extends Component {
         const contentPadding = {
             paddingLeft: size1,
             paddingRight: size1,
-            height: height*1.3,
+            height: height*1.1,
             fontSize: size3,
-            paddingTop: height*0.3,
+            paddingTop: height*0.2,
         }
 
         const clipPath = 'circle('+clipR+'px at '+clipRight+'px '+clipTop+'px)'
@@ -221,7 +221,7 @@ class PC extends Component {
                         <Divider hidden />
                         <Divider hidden />
 
-                        <p>{'Front-end development consists the majority of my work.'}</p>
+                        <p>{'Front-end engineering consists the majority of my work.'}</p>
                         <p>{'IoT and cloud Applications are my fields of interests.'}</p>
                         <p>{'I\'m enthusiastic about programming and user experience.'}</p>
 
@@ -232,7 +232,7 @@ class PC extends Component {
 
                         <Timeline orientation={'right'} lineStyle={{ backgroundColor: 'grey' }}>
                             <TimelineEvent title="2015" {...this.timelineEventProps()}>
-                                <Icon name={'microsoft'} /> Internship at Microsoft M&O Cloud & Enterprise
+                                <Icon name={'microsoft'} /> Internship at Microsoft
                             </TimelineEvent>
                             <TimelineEvent title="2016-2017" {...this.timelineEventProps()}>
                                 <Icon name={'graduation'} /> Graduted from NTUEE
@@ -241,32 +241,40 @@ class PC extends Component {
                                 <Image spaced inline src={'images/watson.png'}
                                     width={30}
                                     height={30}/>
-                                Internship at IBM Cloud Team
+                                Internship at IBM
                                 <br />
                                 <br />
                                 <Icon name={'rocket'} />
                                 NASA Space App Challenge - Magic Conch
-                            </TimelineEvent>
-                            <TimelineEvent title="2018" {...this.timelineEventProps()}>
+                                <br />
+                                <br />
                                 <Image spaced inline src={'images/ibm.png'}
                                     width={30}
                                     height={30}/>
                                 IBM Employee
                             </TimelineEvent>
                             <TimelineEvent title="2019" {...this.timelineEventProps()}>
-                                <br />
                                 <Image spaced inline src={'images/shopee.png'}
                                     width={30}
                                     height={30}/>
                                 Shopee Employee
                             </TimelineEvent>
+                            <TimelineEvent title="2020" {...this.timelineEventProps()}>
+                                <Icon name={'university'} /> Joined MS in CS at Stevens Institute of Technology
+                            </TimelineEvent>
+                            <TimelineEvent title="2021" {...this.timelineEventProps()}>
+                                <Image spaced inline src={'images/hpe.png'}
+                                    width={30}
+                                    height={30}/>
+                                Internship at HPE
+                            </TimelineEvent>
                         </Timeline>
 
                     </Container>
                     <Container style={{ ...contentPadding }}>
-                        <p>{'My experience through 2 cloud team internships...'}</p>
+                        <p>My experience through 2 cloud team internships <br /> at Microsoft and IBM...</p>
 
-                        <p>{'Cloud Service POCs | IoT POCs | Event Lecturer | Official Blog Editor'}</p>
+                        <p>Cloud Service POCs | IoT POCs<br />| Event Lecturer | Official Blog Editor</p>
 
                         <Divider hidden />
                         <Image spaced inline width={clipTop} src={'images/ms.png'} />
@@ -275,13 +283,13 @@ class PC extends Component {
                     </Container>
 
                     <Container style={{ ...contentPadding }}>
-                        <p>{'My IBM mentor and I build chat bots of all shape and sizes. (APPs, cardboards, humanoids, VR...) '}</p>
+                        <p>My IBM mentor and I build chat bots of all shape and sizes<br />APPs, cardboards, humanoids, VR...</p>
 
                         <Divider hidden />
                         <Image spaced inline src={'images/reception.png'} />
                         <Divider hidden />
 
-                        <p>{'One of our bot even hosted the office reception for a couple of month!'}</p>
+                        <p>One of our 3D chat bot even hosted the Taipei office reception for a couple of month!</p>
                     </Container>
 
                     <Container style={{ ...contentPadding }}>
@@ -323,6 +331,29 @@ class PC extends Component {
                         <Divider hidden />
                         <p>{'Our projects ranged from drop shippings systems'}</p>
                         <p>{'to demanding food delivery platform.'}</p>
+                    </Container>
+
+                    <Container style={{ ...contentPadding }}>
+                        <p>
+                            I'm currenty pursuing Master of Science in Computer Science
+                            <br/>
+                            at Stevens Institute of Technology in Hoboken, NJ
+                            <br />
+                            I'm expected to graduate by the end of 2021
+                        </p>
+                        <Divider hidden />
+                        <Image spaced inline size="small" src={'images/hpe.png'} />
+                        <Divider hidden />
+                        <p>
+                            During my summer internship at Hewlett Packard Enterprise,
+                            <br />
+                            I implemented the dark theme infrastructure for our UI team's design system library
+                        </p>
+                        <p>
+                            I've continued to work part-time as a Web UI software engineer,
+                            <br />
+                            building UI components and features for cloud-based storage applicaitons.
+                        </p>
                     </Container>
 
                     <Container style={{
